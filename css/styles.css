@@ -25,7 +25,7 @@ a {
   color: #2e2f42;
 }
 
-button {
+.button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -34,9 +34,7 @@ button {
   color: #fff;
   outline: none;
 }
-.button:hover {
-  color: #404bbf;
-}
+.button:hover,
 .button:focus {
   color: #404bbf;
 }
@@ -105,9 +103,11 @@ button {
 }
 
 .our-team-info {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .our-team-item {
   background-color: #ffffff;
