@@ -91,6 +91,11 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.text-section-second {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 .our-team-container {
   background-color: #f4f4fd;
 }
