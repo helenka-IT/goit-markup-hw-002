@@ -32,6 +32,7 @@ button {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
+  outline: none;
 }
 .button:hover {
   color: #404bbf;
@@ -78,10 +79,13 @@ button {
 .title-our-team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
+
 .title-section-second {
   font-weight: 500;
   font-size: 20px;
@@ -104,6 +108,10 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.our-team-item {
+  background-color: #ffffff;
+  text-align: center;
 }
 
 .title-our-portfolio {
